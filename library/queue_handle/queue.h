@@ -6,18 +6,17 @@
 #include "stdlib.h"
 #include "stdint.h"
 
-
 /*** Define Queue Types ***/
-typedef struct {
+typedef struct
+{
     int8_t Front, Rear, Size;
-    uint8_t    Capacity;
-    uint32_t * QueueArr;
+    uint8_t Capacity;
+    uint32_t *QueueArr;
 } Queue_Types;
 
-
 /*******************************************************************************
-* API
-******************************************************************************/
+ * API
+ ******************************************************************************/
 
 /* Check Empty Of Queue */
 Bool Queue_IsEmpty(Queue_Types *Queue);

@@ -3,12 +3,11 @@
 
 #include "MKL46Z4.h"
 
-#define PE_PS_MASK 				(0x3)
-#define GPIO_MODE 				(0x1)
-#define PIT_ACTIVE				(0x1)
-#define PIT_TIMMER_ENABLE		(0x1)
-#define W1C						(0x1)
-
+#define PE_PS_MASK 										(0x3)
+#define GPIO_MODE 										(0x1)
+#define PIT_ACTIVE 										(0x1)
+#define PIT_TIMMER_ENABLE 								(0x1)
+#define W1C 											(0x1)
 
 typedef enum Bool
 {
@@ -57,7 +56,6 @@ typedef struct Object_Type
 	Pin_Moding_Type pin_moding;
 } Object_Type;
 
-
 uint8_t getPortSource(PORT_Type *PORTx);
 Bool PORT_Init(PORT_Type *PORTx);
 Bool pinMode(Object_Type *s_pin_config);
@@ -65,6 +63,5 @@ Bool attachExternalInterrupt(IRQn_Type IRQn_x, Object_Type *digitalPinToInterrup
 Bool isPinInterruptsRequest(Object_Type *check_pin_request);
 Bool PORT_EXTI_ClearFlag(Object_Type *pin_flag);
 void ERROR_Handler();
-
 
 #endif /* __DRIVER_H__ */

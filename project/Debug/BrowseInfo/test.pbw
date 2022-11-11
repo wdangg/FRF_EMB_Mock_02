@@ -84620,7 +84620,7 @@
     "display": "void ERROR_Handler(void)",
     "location": {
       "column": "6",
-      "line": "152",
+      "line": "151",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.c"
     },
     "name": "ERROR_Handler",
@@ -89471,13 +89471,13 @@
     "scope": null
   },
   {
-    "ID": "c:write_flash.c@80@macro@FTFA_CLEAR_ERROR",
+    "ID": "c:write_flash.c@78@macro@FTFA_CLEAR_ERROR",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "FTFA_CLEAR_ERROR",
     "location": {
       "column": "9",
-      "line": "7",
+      "line": "6",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\flash\\write_flash.c"
     },
     "name": "FTFA_CLEAR_ERROR",
@@ -89485,13 +89485,13 @@
     "scope": null
   },
   {
-    "ID": "c:write_flash.c@130@macro@CMD_PROGRAM_LONGWORD",
+    "ID": "c:write_flash.c@134@macro@CMD_PROGRAM_LONGWORD",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CMD_PROGRAM_LONGWORD",
     "location": {
       "column": "9",
-      "line": "8",
+      "line": "7",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\flash\\write_flash.c"
     },
     "name": "CMD_PROGRAM_LONGWORD",
@@ -89499,13 +89499,13 @@
     "scope": null
   },
   {
-    "ID": "c:write_flash.c@179@macro@CMD_ERASE_SECTOR",
+    "ID": "c:write_flash.c@189@macro@CMD_ERASE_SECTOR",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CMD_ERASE_SECTOR",
     "location": {
       "column": "9",
-      "line": "9",
+      "line": "8",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\flash\\write_flash.c"
     },
     "name": "CMD_ERASE_SECTOR",
@@ -89513,13 +89513,13 @@
     "scope": null
   },
   {
-    "ID": "c:write_flash.c@228@macro@START_COMMAND",
+    "ID": "c:write_flash.c@244@macro@START_COMMAND",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "START_COMMAND",
     "location": {
       "column": "9",
-      "line": "10",
+      "line": "9",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\flash\\write_flash.c"
     },
     "name": "START_COMMAND",
@@ -89527,13 +89527,13 @@
     "scope": null
   },
   {
-    "ID": "c:write_flash.c@299@macro@CMD_PROGRAM_ERSSCR",
+    "ID": "c:write_flash.c@318@macro@CMD_PROGRAM_ERSSCR",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "CMD_PROGRAM_ERSSCR",
     "location": {
       "column": "9",
-      "line": "15",
+      "line": "13",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\flash\\write_flash.c"
     },
     "name": "CMD_PROGRAM_ERSSCR",
@@ -89547,7 +89547,7 @@
     "display": "void Flash_Program(uint32_t, uint32_t)",
     "location": {
       "column": "6",
-      "line": "21",
+      "line": "16",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\flash\\write_flash.c"
     },
     "name": "Flash_Program",
@@ -89561,7 +89561,7 @@
     "display": "void Erase_Program(uint32_t)",
     "location": {
       "column": "6",
-      "line": "50",
+      "line": "44",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\flash\\write_flash.c"
     },
     "name": "Erase_Program",
@@ -90339,7 +90339,7 @@
     "scope": null
   },
   {
-    "ID": "c:driver.h@108@macro@GPIO_MODE",
+    "ID": "c:driver.h@114@macro@GPIO_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIO_MODE",
@@ -90353,7 +90353,7 @@
     "scope": null
   },
   {
-    "ID": "c:driver.h@137@macro@PIT_ACTIVE",
+    "ID": "c:driver.h@149@macro@PIT_ACTIVE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PIT_ACTIVE",
@@ -90367,7 +90367,7 @@
     "scope": null
   },
   {
-    "ID": "c:driver.h@166@macro@PIT_TIMMER_ENABLE",
+    "ID": "c:driver.h@185@macro@PIT_TIMMER_ENABLE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PIT_TIMMER_ENABLE",
@@ -90381,7 +90381,7 @@
     "scope": null
   },
   {
-    "ID": "c:driver.h@200@macro@W1C",
+    "ID": "c:driver.h@226@macro@W1C",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "W1C",
@@ -90407,7 +90407,7 @@
         "display": "e_FALSE",
         "location": {
           "column": "2",
-          "line": "15",
+          "line": "14",
           "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
         },
         "name": "e_FALSE",
@@ -90421,7 +90421,7 @@
         "display": "e_TRUE",
         "location": {
           "column": "2",
-          "line": "16",
+          "line": "15",
           "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
         },
         "name": "e_TRUE",
@@ -90431,7 +90431,7 @@
     ],
     "location": {
       "column": "14",
-      "line": "13",
+      "line": "12",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
     },
     "name": "Bool",
@@ -90445,7 +90445,7 @@
     "display": "enum Bool",
     "location": {
       "column": "3",
-      "line": "17",
+      "line": "16",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
     },
     "name": "Bool",
@@ -90465,7 +90465,7 @@
         "display": "PORTA_CLOCK",
         "location": {
           "column": "2",
-          "line": "21",
+          "line": "20",
           "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
         },
         "name": "PORTA_CLOCK",
@@ -90479,7 +90479,7 @@
         "display": "PORTB_CLOCK",
         "location": {
           "column": "2",
-          "line": "22",
+          "line": "21",
           "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
         },
         "name": "PORTB_CLOCK",
@@ -90493,7 +90493,7 @@
         "display": "PORTC_CLOCK",
         "location": {
           "column": "2",
-          "line": "23",
+          "line": "22",
           "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
         },
         "name": "PORTC_CLOCK",
@@ -90507,7 +90507,7 @@
         "display": "PORTD_CLOCK",
         "location": {
           "column": "2",
-          "line": "24",
+          "line": "23",
           "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
         },
         "name": "PORTD_CLOCK",
@@ -90521,7 +90521,7 @@
         "display": "PORTE_CLOCK",
         "location": {
           "column": "2",
-          "line": "25",
+          "line": "24",
           "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
         },
         "name": "PORTE_CLOCK",
@@ -90531,7 +90531,7 @@
     ],
     "location": {
       "column": "14",
-      "line": "19",
+      "line": "18",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
     },
     "name": "__clock_port",
@@ -90545,7 +90545,7 @@
     "display": "enum __clock_port",
     "location": {
       "column": "3",
-      "line": "26",
+      "line": "25",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
     },
     "name": "ClockPortType",
@@ -90565,7 +90565,7 @@
         "display": "RISING_EDGE",
         "location": {
           "column": "2",
-          "line": "30",
+          "line": "29",
           "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
         },
         "name": "RISING_EDGE",
@@ -90579,7 +90579,7 @@
         "display": "FALLING_EDGE",
         "location": {
           "column": "2",
-          "line": "31",
+          "line": "30",
           "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
         },
         "name": "FALLING_EDGE",
@@ -90593,7 +90593,7 @@
         "display": "LOW_LOGIC",
         "location": {
           "column": "2",
-          "line": "32",
+          "line": "31",
           "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
         },
         "name": "LOW_LOGIC",
@@ -90607,7 +90607,7 @@
         "display": "HIGH_LOGIC",
         "location": {
           "column": "2",
-          "line": "33",
+          "line": "32",
           "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
         },
         "name": "HIGH_LOGIC",
@@ -90621,7 +90621,7 @@
         "display": "CHANGE",
         "location": {
           "column": "2",
-          "line": "34",
+          "line": "33",
           "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
         },
         "name": "CHANGE",
@@ -90631,7 +90631,7 @@
     ],
     "location": {
       "column": "14",
-      "line": "28",
+      "line": "27",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
     },
     "name": "INT_Trigger_Type",
@@ -90645,7 +90645,7 @@
     "display": "enum INT_Trigger_Type",
     "location": {
       "column": "3",
-      "line": "35",
+      "line": "34",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
     },
     "name": "INT_Trigger_Type",
@@ -90665,7 +90665,7 @@
         "display": "INPUT",
         "location": {
           "column": "2",
-          "line": "39",
+          "line": "38",
           "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
         },
         "name": "INPUT",
@@ -90679,7 +90679,7 @@
         "display": "OUTPUT",
         "location": {
           "column": "2",
-          "line": "40",
+          "line": "39",
           "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
         },
         "name": "OUTPUT",
@@ -90693,7 +90693,7 @@
         "display": "INPUT_PULLUP",
         "location": {
           "column": "2",
-          "line": "41",
+          "line": "40",
           "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
         },
         "name": "INPUT_PULLUP",
@@ -90707,7 +90707,7 @@
         "display": "INPUT_PULLDOWN",
         "location": {
           "column": "2",
-          "line": "42",
+          "line": "41",
           "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
         },
         "name": "INPUT_PULLDOWN",
@@ -90717,7 +90717,7 @@
     ],
     "location": {
       "column": "14",
-      "line": "37",
+      "line": "36",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
     },
     "name": "Pin_Moding",
@@ -90731,7 +90731,7 @@
     "display": "enum Pin_Moding",
     "location": {
       "column": "3",
-      "line": "43",
+      "line": "42",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
     },
     "name": "Pin_Moding_Type",
@@ -90751,7 +90751,7 @@
         "display": "__PULLUP",
         "location": {
           "column": "2",
-          "line": "47",
+          "line": "46",
           "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
         },
         "name": "__PULLUP",
@@ -90765,7 +90765,7 @@
         "display": "__PULLDOWN",
         "location": {
           "column": "2",
-          "line": "48",
+          "line": "47",
           "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
         },
         "name": "__PULLDOWN",
@@ -90779,7 +90779,7 @@
         "display": "__NOPULL",
         "location": {
           "column": "2",
-          "line": "49",
+          "line": "48",
           "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
         },
         "name": "__NOPULL",
@@ -90789,7 +90789,7 @@
     ],
     "location": {
       "column": "14",
-      "line": "45",
+      "line": "44",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
     },
     "name": "Push_Pull_Type",
@@ -90803,7 +90803,7 @@
     "display": "enum Push_Pull_Type",
     "location": {
       "column": "3",
-      "line": "50",
+      "line": "49",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
     },
     "name": "Push_Pull_Type",
@@ -90817,7 +90817,7 @@
     "display": "Object_Type",
     "location": {
       "column": "16",
-      "line": "52",
+      "line": "51",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
     },
     "members": [
@@ -90828,7 +90828,7 @@
         "display": "PORTx",
         "location": {
           "column": "13",
-          "line": "54",
+          "line": "53",
           "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
         },
         "name": "PORTx",
@@ -90842,7 +90842,7 @@
         "display": "FGPIOx",
         "location": {
           "column": "14",
-          "line": "55",
+          "line": "54",
           "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
         },
         "name": "FGPIOx",
@@ -90856,7 +90856,7 @@
         "display": "pin_number",
         "location": {
           "column": "10",
-          "line": "56",
+          "line": "55",
           "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
         },
         "name": "pin_number",
@@ -90870,7 +90870,7 @@
         "display": "pin_moding",
         "location": {
           "column": "18",
-          "line": "57",
+          "line": "56",
           "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
         },
         "name": "pin_moding",
@@ -90889,7 +90889,7 @@
     "display": "struct Object_Type",
     "location": {
       "column": "3",
-      "line": "58",
+      "line": "57",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
     },
     "name": "Object_Type",
@@ -90903,7 +90903,7 @@
     "display": "uint8_t getPortSource(PORT_Type *)",
     "location": {
       "column": "9",
-      "line": "61",
+      "line": "59",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
     },
     "name": "getPortSource",
@@ -90917,7 +90917,7 @@
     "display": "uint8_t getPortSource(PORT_Type *)",
     "location": {
       "column": "9",
-      "line": "61",
+      "line": "59",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
     },
     "name": "getPortSource",
@@ -90931,7 +90931,7 @@
     "display": "Bool PORT_Init(PORT_Type *)",
     "location": {
       "column": "6",
-      "line": "62",
+      "line": "60",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
     },
     "name": "PORT_Init",
@@ -90945,7 +90945,7 @@
     "display": "Bool PORT_Init(PORT_Type *)",
     "location": {
       "column": "6",
-      "line": "62",
+      "line": "60",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
     },
     "name": "PORT_Init",
@@ -90959,7 +90959,7 @@
     "display": "Bool pinMode(Object_Type *)",
     "location": {
       "column": "6",
-      "line": "63",
+      "line": "61",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
     },
     "name": "pinMode",
@@ -90973,7 +90973,7 @@
     "display": "Bool pinMode(Object_Type *)",
     "location": {
       "column": "6",
-      "line": "63",
+      "line": "61",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
     },
     "name": "pinMode",
@@ -90987,7 +90987,7 @@
     "display": "Bool attachExternalInterrupt(IRQn_Type, Object_Type *, INT_Trigger_Type)",
     "location": {
       "column": "6",
-      "line": "64",
+      "line": "62",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
     },
     "name": "attachExternalInterrupt",
@@ -91001,7 +91001,7 @@
     "display": "Bool attachExternalInterrupt(IRQn_Type, Object_Type *, INT_Trigger_Type)",
     "location": {
       "column": "6",
-      "line": "64",
+      "line": "62",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
     },
     "name": "attachExternalInterrupt",
@@ -91015,7 +91015,7 @@
     "display": "Bool isPinInterruptsRequest(Object_Type *)",
     "location": {
       "column": "6",
-      "line": "65",
+      "line": "63",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
     },
     "name": "isPinInterruptsRequest",
@@ -91029,7 +91029,7 @@
     "display": "Bool isPinInterruptsRequest(Object_Type *)",
     "location": {
       "column": "6",
-      "line": "65",
+      "line": "63",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
     },
     "name": "isPinInterruptsRequest",
@@ -91043,7 +91043,7 @@
     "display": "Bool PORT_EXTI_ClearFlag(Object_Type *)",
     "location": {
       "column": "6",
-      "line": "66",
+      "line": "64",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
     },
     "name": "PORT_EXTI_ClearFlag",
@@ -91057,7 +91057,7 @@
     "display": "Bool PORT_EXTI_ClearFlag(Object_Type *)",
     "location": {
       "column": "6",
-      "line": "66",
+      "line": "64",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
     },
     "name": "PORT_EXTI_ClearFlag",
@@ -91071,7 +91071,7 @@
     "display": "void ERROR_Handler(void)",
     "location": {
       "column": "6",
-      "line": "67",
+      "line": "65",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
     },
     "name": "ERROR_Handler",
@@ -91085,7 +91085,7 @@
     "display": "void ERROR_Handler(void)",
     "location": {
       "column": "6",
-      "line": "67",
+      "line": "65",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\drivers\\driver.h"
     },
     "name": "ERROR_Handler",
@@ -91603,7 +91603,7 @@
     "display": "Bool Queue_PushData(Queue_Types *, uint32_t)",
     "location": {
       "column": "6",
-      "line": "36",
+      "line": "35",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.c"
     },
     "name": "Queue_PushData",
@@ -91611,13 +91611,13 @@
     "scope": null
   },
   {
-    "ID": "c:queue.c@943@F@Queue_PushData@retVal",
+    "ID": "c:queue.c@614@F@Queue_PushData@retVal",
     "What": "Variable",
     "defdec": "Def",
     "display": "retVal",
     "location": {
       "column": "10",
-      "line": "38",
+      "line": "37",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.c"
     },
     "name": "retVal",
@@ -91631,7 +91631,7 @@
     "display": "Bool Queue_ForcePushData(Queue_Types *, uint32_t)",
     "location": {
       "column": "6",
-      "line": "54",
+      "line": "53",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.c"
     },
     "name": "Queue_ForcePushData",
@@ -91639,13 +91639,13 @@
     "scope": null
   },
   {
-    "ID": "c:queue.c@1353@F@Queue_ForcePushData@retVal",
+    "ID": "c:queue.c@1024@F@Queue_ForcePushData@retVal",
     "What": "Variable",
     "defdec": "Def",
     "display": "retVal",
     "location": {
       "column": "10",
-      "line": "56",
+      "line": "55",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.c"
     },
     "name": "retVal",
@@ -91659,7 +91659,7 @@
     "display": "uint32_t Queue_Pop(Queue_Types *)",
     "location": {
       "column": "10",
-      "line": "72",
+      "line": "71",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.c"
     },
     "name": "Queue_Pop",
@@ -91667,13 +91667,13 @@
     "scope": null
   },
   {
-    "ID": "c:queue.c@1721@F@Queue_Pop@pop_data",
+    "ID": "c:queue.c@1392@F@Queue_Pop@pop_data",
     "What": "Variable",
     "defdec": "Def",
     "display": "pop_data",
     "location": {
       "column": "14",
-      "line": "74",
+      "line": "73",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.c"
     },
     "name": "pop_data",
@@ -91681,13 +91681,13 @@
     "scope": null
   },
   {
-    "ID": "c:queue.c@1886@F@Queue_Pop@count",
+    "ID": "c:queue.c@1557@F@Queue_Pop@count",
     "What": "Variable",
     "defdec": "Def",
     "display": "count",
     "location": {
       "column": "17",
-      "line": "80",
+      "line": "79",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.c"
     },
     "name": "count",
@@ -91695,13 +91695,13 @@
     "scope": null
   },
   {
-    "ID": "c:queue.c@1947@F@Queue_Pop@i",
+    "ID": "c:queue.c@1618@F@Queue_Pop@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "17",
-      "line": "82",
+      "line": "81",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.c"
     },
     "name": "i",
@@ -91715,7 +91715,7 @@
     "display": "uint32_t Queue_PeekData(Queue_Types *)",
     "location": {
       "column": "10",
-      "line": "115",
+      "line": "114",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.c"
     },
     "name": "Queue_PeekData",
@@ -91723,13 +91723,13 @@
     "scope": null
   },
   {
-    "ID": "c:queue.c@3235@F@Queue_PeekData@peek_data",
+    "ID": "c:queue.c@2429@F@Queue_PeekData@peek_data",
     "What": "Variable",
     "defdec": "Def",
     "display": "peek_data",
     "location": {
       "column": "14",
-      "line": "117",
+      "line": "116",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.c"
     },
     "name": "peek_data",
@@ -91743,7 +91743,7 @@
     "display": "void Queue_Display(Queue_Types *)",
     "location": {
       "column": "6",
-      "line": "169",
+      "line": "164",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.c"
     },
     "name": "Queue_Display",
@@ -91751,13 +91751,13 @@
     "scope": null
   },
   {
-    "ID": "c:queue.c@4267@F@Queue_Display@i",
+    "ID": "c:queue.c@3441@F@Queue_Display@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "13",
-      "line": "171",
+      "line": "166",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.c"
     },
     "name": "i",
@@ -91799,7 +91799,7 @@
     "display": "",
     "location": {
       "column": "9",
-      "line": "11",
+      "line": "10",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.h"
     },
     "members": [
@@ -91815,7 +91815,7 @@
         },
         "name": "Front",
         "origin": "user_include",
-        "scope": "_anonymous_queue_h_11_9"
+        "scope": "_anonymous_queue_h_10_9"
       },
       {
         "ID": "c:@SA@Queue_Types@FI@Rear",
@@ -91829,7 +91829,7 @@
         },
         "name": "Rear",
         "origin": "user_include",
-        "scope": "_anonymous_queue_h_11_9"
+        "scope": "_anonymous_queue_h_10_9"
       },
       {
         "ID": "c:@SA@Queue_Types@FI@Size",
@@ -91843,7 +91843,7 @@
         },
         "name": "Size",
         "origin": "user_include",
-        "scope": "_anonymous_queue_h_11_9"
+        "scope": "_anonymous_queue_h_10_9"
       },
       {
         "ID": "c:@SA@Queue_Types@FI@Capacity",
@@ -91851,13 +91851,13 @@
         "defdec": "Def",
         "display": "Capacity",
         "location": {
-          "column": "16",
+          "column": "13",
           "line": "13",
           "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.h"
         },
         "name": "Capacity",
         "origin": "user_include",
-        "scope": "_anonymous_queue_h_11_9"
+        "scope": "_anonymous_queue_h_10_9"
       },
       {
         "ID": "c:@SA@Queue_Types@FI@QueueArr",
@@ -91865,13 +91865,13 @@
         "defdec": "Def",
         "display": "QueueArr",
         "location": {
-          "column": "16",
+          "column": "15",
           "line": "14",
           "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.h"
         },
         "name": "QueueArr",
         "origin": "user_include",
-        "scope": "_anonymous_queue_h_11_9"
+        "scope": "_anonymous_queue_h_10_9"
       }
     ],
     "name": "",
@@ -91899,7 +91899,7 @@
     "display": "Bool Queue_IsEmpty(Queue_Types *)",
     "location": {
       "column": "6",
-      "line": "23",
+      "line": "22",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.h"
     },
     "name": "Queue_IsEmpty",
@@ -91913,7 +91913,7 @@
     "display": "Bool Queue_IsEmpty(Queue_Types *)",
     "location": {
       "column": "6",
-      "line": "23",
+      "line": "22",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.h"
     },
     "name": "Queue_IsEmpty",
@@ -91927,7 +91927,7 @@
     "display": "Bool Queue_IsFull(Queue_Types *)",
     "location": {
       "column": "6",
-      "line": "26",
+      "line": "25",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.h"
     },
     "name": "Queue_IsFull",
@@ -91941,7 +91941,7 @@
     "display": "Bool Queue_IsFull(Queue_Types *)",
     "location": {
       "column": "6",
-      "line": "26",
+      "line": "25",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.h"
     },
     "name": "Queue_IsFull",
@@ -91955,7 +91955,7 @@
     "display": "uint32_t Queue_Pop(Queue_Types *)",
     "location": {
       "column": "10",
-      "line": "29",
+      "line": "28",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.h"
     },
     "name": "Queue_Pop",
@@ -91969,7 +91969,7 @@
     "display": "uint32_t Queue_Pop(Queue_Types *)",
     "location": {
       "column": "10",
-      "line": "29",
+      "line": "28",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.h"
     },
     "name": "Queue_Pop",
@@ -91983,7 +91983,7 @@
     "display": "Bool Queue_PushData(Queue_Types *, uint32_t)",
     "location": {
       "column": "6",
-      "line": "32",
+      "line": "31",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.h"
     },
     "name": "Queue_PushData",
@@ -91997,7 +91997,7 @@
     "display": "Bool Queue_PushData(Queue_Types *, uint32_t)",
     "location": {
       "column": "6",
-      "line": "32",
+      "line": "31",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.h"
     },
     "name": "Queue_PushData",
@@ -92011,7 +92011,7 @@
     "display": "Bool Queue_ForcePushData(Queue_Types *, uint32_t)",
     "location": {
       "column": "6",
-      "line": "35",
+      "line": "34",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.h"
     },
     "name": "Queue_ForcePushData",
@@ -92025,7 +92025,7 @@
     "display": "Bool Queue_ForcePushData(Queue_Types *, uint32_t)",
     "location": {
       "column": "6",
-      "line": "35",
+      "line": "34",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.h"
     },
     "name": "Queue_ForcePushData",
@@ -92039,7 +92039,7 @@
     "display": "uint32_t Queue_PeekData(Queue_Types *)",
     "location": {
       "column": "10",
-      "line": "38",
+      "line": "37",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.h"
     },
     "name": "Queue_PeekData",
@@ -92053,7 +92053,7 @@
     "display": "uint32_t Queue_PeekData(Queue_Types *)",
     "location": {
       "column": "10",
-      "line": "38",
+      "line": "37",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.h"
     },
     "name": "Queue_PeekData",
@@ -92067,7 +92067,7 @@
     "display": "void Queue_Display(Queue_Types *)",
     "location": {
       "column": "6",
-      "line": "41",
+      "line": "40",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.h"
     },
     "name": "Queue_Display",
@@ -92081,7 +92081,7 @@
     "display": "void Queue_Display(Queue_Types *)",
     "location": {
       "column": "6",
-      "line": "41",
+      "line": "40",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\queue_handle\\queue.h"
     },
     "name": "Queue_Display",
@@ -93139,7 +93139,7 @@
     "scope": null
   },
   {
-    "ID": "c:string_handle.c@310@F@Str_Reverse@start",
+    "ID": "c:string_handle.c@309@F@Str_Reverse@start",
     "What": "Variable",
     "defdec": "Def",
     "display": "start",
@@ -93153,7 +93153,7 @@
     "scope": null
   },
   {
-    "ID": "c:string_handle.c@335@F@Str_Reverse@end",
+    "ID": "c:string_handle.c@334@F@Str_Reverse@end",
     "What": "Variable",
     "defdec": "Def",
     "display": "end",
@@ -93209,7 +93209,7 @@
     "scope": null
   },
   {
-    "ID": "c:string_handle.c@1160@F@itoa@rem",
+    "ID": "c:string_handle.c@1157@F@itoa@rem",
     "What": "Variable",
     "defdec": "Def",
     "display": "rem",
@@ -93237,12 +93237,12 @@
     "scope": null
   },
   {
-    "ID": "c:string_handle.c@1697@F@Char2Dec@retVal",
+    "ID": "c:string_handle.c@1698@F@Char2Dec@retVal",
     "What": "Variable",
     "defdec": "Def",
     "display": "retVal",
     "location": {
-      "column": "10",
+      "column": "13",
       "line": "75",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\string_handle\\string_handle.c"
     },
@@ -93265,13 +93265,13 @@
     "scope": null
   },
   {
-    "ID": "c:uart0_handle.h@92@macro@UART0_RX_PIN",
+    "ID": "c:uart0_handle.h@90@macro@UART0_RX_PIN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART0_RX_PIN",
     "location": {
       "column": "9",
-      "line": "7",
+      "line": "6",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\uart0_handle\\uart0_handle.h"
     },
     "name": "UART0_RX_PIN",
@@ -93279,13 +93279,13 @@
     "scope": null
   },
   {
-    "ID": "c:uart0_handle.h@119@macro@UART0_TX_PIN",
+    "ID": "c:uart0_handle.h@114@macro@UART0_TX_PIN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART0_TX_PIN",
     "location": {
       "column": "9",
-      "line": "8",
+      "line": "7",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\uart0_handle\\uart0_handle.h"
     },
     "name": "UART0_TX_PIN",
@@ -93299,7 +93299,7 @@
     "display": "void UART0_Clock48Mhz(void)",
     "location": {
       "column": "6",
-      "line": "12",
+      "line": "10",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\uart0_handle\\uart0_handle.h"
     },
     "name": "UART0_Clock48Mhz",
@@ -93313,7 +93313,7 @@
     "display": "void UART0_Clock48Mhz(void)",
     "location": {
       "column": "6",
-      "line": "12",
+      "line": "10",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\uart0_handle\\uart0_handle.h"
     },
     "name": "UART0_Clock48Mhz",
@@ -93327,7 +93327,7 @@
     "display": "void UART0_PortInit(void)",
     "location": {
       "column": "6",
-      "line": "13",
+      "line": "11",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\uart0_handle\\uart0_handle.h"
     },
     "name": "UART0_PortInit",
@@ -93341,7 +93341,7 @@
     "display": "void UART0_PortInit(void)",
     "location": {
       "column": "6",
-      "line": "13",
+      "line": "11",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\uart0_handle\\uart0_handle.h"
     },
     "name": "UART0_PortInit",
@@ -93355,7 +93355,7 @@
     "display": "void UART0_SetBaudRate(uint32_t, uint32_t)",
     "location": {
       "column": "6",
-      "line": "14",
+      "line": "12",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\uart0_handle\\uart0_handle.h"
     },
     "name": "UART0_SetBaudRate",
@@ -93369,7 +93369,7 @@
     "display": "void UART0_SetFrame(void)",
     "location": {
       "column": "6",
-      "line": "15",
+      "line": "13",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\uart0_handle\\uart0_handle.h"
     },
     "name": "UART0_SetFrame",
@@ -93383,7 +93383,7 @@
     "display": "void UART0_SetFrame(void)",
     "location": {
       "column": "6",
-      "line": "15",
+      "line": "13",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\uart0_handle\\uart0_handle.h"
     },
     "name": "UART0_SetFrame",
@@ -93397,7 +93397,7 @@
     "display": "void UART0_Init(void)",
     "location": {
       "column": "6",
-      "line": "16",
+      "line": "14",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\uart0_handle\\uart0_handle.h"
     },
     "name": "UART0_Init",
@@ -93411,7 +93411,7 @@
     "display": "void UART0_Init(void)",
     "location": {
       "column": "6",
-      "line": "16",
+      "line": "14",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\uart0_handle\\uart0_handle.h"
     },
     "name": "UART0_Init",
@@ -93425,7 +93425,7 @@
     "display": "void UART0_Transmit(uint8_t)",
     "location": {
       "column": "6",
-      "line": "17",
+      "line": "15",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\uart0_handle\\uart0_handle.h"
     },
     "name": "UART0_Transmit",
@@ -93439,7 +93439,7 @@
     "display": "void UART0_Transmit(uint8_t)",
     "location": {
       "column": "6",
-      "line": "17",
+      "line": "15",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\uart0_handle\\uart0_handle.h"
     },
     "name": "UART0_Transmit",
@@ -93453,7 +93453,7 @@
     "display": "uint8_t UART0_Receive(void)",
     "location": {
       "column": "9",
-      "line": "18",
+      "line": "16",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\uart0_handle\\uart0_handle.h"
     },
     "name": "UART0_Receive",
@@ -93467,7 +93467,7 @@
     "display": "uint8_t UART0_Receive(void)",
     "location": {
       "column": "9",
-      "line": "18",
+      "line": "16",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\uart0_handle\\uart0_handle.h"
     },
     "name": "UART0_Receive",
@@ -93481,7 +93481,7 @@
     "display": "void UART0_SetupReceiveINT(void)",
     "location": {
       "column": "6",
-      "line": "20",
+      "line": "18",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\uart0_handle\\uart0_handle.h"
     },
     "name": "UART0_SetupReceiveINT",
@@ -93495,7 +93495,7 @@
     "display": "void UART0_SetupReceiveINT(void)",
     "location": {
       "column": "6",
-      "line": "20",
+      "line": "18",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\uart0_handle\\uart0_handle.h"
     },
     "name": "UART0_SetupReceiveINT",
@@ -93509,7 +93509,7 @@
     "display": "void UART0_OutString(uint8_t *, uint8_t)",
     "location": {
       "column": "6",
-      "line": "21",
+      "line": "19",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\uart0_handle\\uart0_handle.h"
     },
     "name": "UART0_OutString",
@@ -93523,7 +93523,7 @@
     "display": "void UART0_OutString(uint8_t *, uint8_t)",
     "location": {
       "column": "6",
-      "line": "21",
+      "line": "19",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\uart0_handle\\uart0_handle.h"
     },
     "name": "UART0_OutString",
@@ -93537,7 +93537,7 @@
     "display": "void UART0_Init_9600(void)",
     "location": {
       "column": "6",
-      "line": "23",
+      "line": "21",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\uart0_handle\\uart0_handle.h"
     },
     "name": "UART0_Init_9600",
@@ -93551,7 +93551,7 @@
     "display": "void UART0_Init_9600(void)",
     "location": {
       "column": "6",
-      "line": "23",
+      "line": "21",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\library\\uart0_handle\\uart0_handle.h"
     },
     "name": "UART0_Init_9600",

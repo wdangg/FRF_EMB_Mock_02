@@ -148,7 +148,6 @@ Bool PORT_EXTI_ClearFlag(Object_Type *pin_flag)
     return retVal;
 }
 
-
 void ERROR_Handler()
 {
     while (1)

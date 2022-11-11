@@ -23,14 +23,13 @@ Bool Queue_IsFull(Queue_Types *Queue)
     if ((Queue->Size) == (Queue->Capacity))
     {
         isFull = e_TRUE;
-    } 
+    }
     else
     {
         isFull = e_FALSE;
     }
-    return isFull;                                                                                                                                                                                                                                                                                                                                      
+    return isFull;
 }
-
 
 /* Hadling Push Data In Queue */
 Bool Queue_PushData(Queue_Types *Queue, uint32_t InputData)
@@ -82,12 +81,12 @@ uint32_t Queue_Pop(Queue_Types *Queue)
         uint8_t i = 0;
         for (i = 0; i < count; i++)
         {
-            Queue->QueueArr[i] = Queue->QueueArr[(Queue->Front)+i+1];
+            Queue->QueueArr[i] = Queue->QueueArr[(Queue->Front) + i + 1];
         }
 
         Queue->Front = 0;
         Queue->Rear = (count - 1);
-        Queue->Capacity = count;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+        Queue->Capacity = count;
     }
     else
     {
@@ -142,9 +141,7 @@ uint32_t Queue_PeekData(Queue_Types *Queue)
             printf("[ERROR] Error Handler\n");
             break;
         }
-        
     }
-
 
     /* Option Clear Value */
     // uint8_t i = 0;
@@ -160,22 +157,17 @@ uint32_t Queue_PeekData(Queue_Types *Queue)
     //     }
     // }
 
-    
     return peek_data;
 }
-
 
 /* Display Queue Data*/
 void Queue_Display(Queue_Types *Queue)
 {
     uint8_t i = 0;
-    printf("\n[INFO] Size: %d\tCapacity: %d\tFront: %d\tRear: %d\n", (Queue->Size), (Queue->Capacity), 
-                                                                    (Queue->Front), (Queue->Rear));
+    printf("\n[INFO] Size: %d\tCapacity: %d\tFront: %d\tRear: %d\n", (Queue->Size), (Queue->Capacity),
+           (Queue->Front), (Queue->Rear));
     for (i = 0; i < (Queue->Size); i++)
     {
         printf("[INFO] Index %d:  %d\n", i, (Queue->QueueArr[i]));
     }
 }
-
-
-

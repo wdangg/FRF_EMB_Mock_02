@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<settings>
+    <PE_STARTUP>
+        <jtag_numbits_pre_ir>_ "0"</jtag_numbits_pre_ir>
+        <jtag_tap_num>_ "0"</jtag_tap_num>
+        <user_specified_daisy_chain>_ "0"</user_specified_daisy_chain>
+        <CPUTARGETTYPENAME>_ "ARM Processor - Autodetect"</CPUTARGETTYPENAME>
+        <USE_CYCLONEPRO_RELAYS>_ "0"</USE_CYCLONEPRO_RELAYS>
+        <CyclonePro_poweroffonexit>_ "0"</CyclonePro_poweroffonexit>
+        <CyclonePro_currentvoltage>_ "128"</CyclonePro_currentvoltage>
+        <CyclonePro_PowerDownDelay>_ "250"</CyclonePro_PowerDownDelay>
+        <CyclonePro_PowerUpDelay>_ "250"</CyclonePro_PowerUpDelay>
+        <Multilink_PowerDownDelay>_ "250"</Multilink_PowerDownDelay>
+        <Multilink_PowerUpDelay>_ "1000"</Multilink_PowerUpDelay>
+        <USE_SWD>_ "1"</USE_SWD>
+        <IO_DELAY_CNT>_ "0"</IO_DELAY_CNT>
+        <FREQ_FX>_ "4"</FREQ_FX>
+        <FREQ_NORMAL>_ "0"</FREQ_NORMAL>
+        <FREQ_OSJTAG>_ "0"</FREQ_OSJTAG>
+        <FREQ_CYCLONE>_ "3"</FREQ_CYCLONE>
+        <FREQ_TRACELINK>_ "3"</FREQ_TRACELINK>
+        <FREQ_LIGHTNING>_ "1"</FREQ_LIGHTNING>
+        <FREQ_OPENSDA>_ "0"</FREQ_OPENSDA>
+        <RESET_DELAY>_ "0"</RESET_DELAY>
+        <PORT>_ "181"</PORT>
+        <PORT_NAME_STRING>_ "415BDE42"</PORT_NAME_STRING>
+        <interface_selection>_ "7"</interface_selection>
+        <TraceLink_MaxBufferSize>_ "1"</TraceLink_MaxBufferSize>
+        <SHOWDIALOG>_ "0"</SHOWDIALOG>
+        <SWO_BAUDRATE_SWITCH_MULTILINK_VALUE>_ "-1.000000"</SWO_BAUDRATE_SWITCH_MULTILINK_VALUE>
+        <SWO_BAUDRATE_SWITCH_TARGET_VALUE>_ "-1.000000"</SWO_BAUDRATE_SWITCH_TARGET_VALUE>
+    </PE_STARTUP>
+    <PE_STORED_DEVICES>
+        <device0>_ "NXP_KL4x_KL46Z256M4"</device0>
+    </PE_STORED_DEVICES>
+    <PE_PEDEBUG>
+        <ERASE_PROGRAM_WITHOUT_ASKING>_ "1"</ERASE_PROGRAM_WITHOUT_ASKING>
+        <ENABLE_FLASH_PROGRAMMING_DIALOG>_ "1"</ENABLE_FLASH_PROGRAMMING_DIALOG>
+        <CURRENTMODE>_ "4"</CURRENTMODE>
+        <CURRENTDEVICE>_ "NXP_KL4x_KL46Z256M4"</CURRENTDEVICE>
+        <CURRENTCORE>_ "1"</CURRENTCORE>
+    </PE_PEDEBUG>
+    <PE_DEVICE>
+        <CHIPMODE>_ "NXP_KL4x_KL46Z256M4"</CHIPMODE>
+    </PE_DEVICE>
+    <PE_SETTINGS>
+        <MEMORYSTART1>_ "0"</MEMORYSTART1>
+        <MEMORYSTART2>_ "0"</MEMORYSTART2>
+        <MEMORYSTART3>_ "0"</MEMORYSTART3>
+        <DEFAULT_SOURCE_PATH>_ "C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\bin\pemicro\P&amp;E"</DEFAULT_SOURCE_PATH>
+        <DEFAULT_MACRO_PATH>_ "C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\bin\pemicro\P&amp;E"</DEFAULT_MACRO_PATH>
+        <DEFAULT_LOGFILE_PATH>_ "C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\bin\pemicro\P&amp;E"</DEFAULT_LOGFILE_PATH>
+    </PE_SETTINGS>
+    <PE_STARTUP12>
+        <show_hstep_assembly_details_new>_ "0"</show_hstep_assembly_details_new>
+    </PE_STARTUP12>
+    <PE_ARM>
+        <FILE1>_ ""</FILE1>
+        <BINTORAM>_ "1"</BINTORAM>
+        <BINTOFLASH>_ "0"</BINTOFLASH>
+        <BINTOFLASHDEFAULT>_ "0"</BINTOFLASHDEFAULT>
+        <GOTILMAINDEFAULTON>_ "1"</GOTILMAINDEFAULTON>
+        <KEEPCPROGOPEN>_ "0"</KEEPCPROGOPEN>
+    </PE_ARM>
+</settings>

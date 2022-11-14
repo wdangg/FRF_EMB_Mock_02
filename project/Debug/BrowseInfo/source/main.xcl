@@ -29,6 +29,10 @@ D:\OneDrive - Hanoi University of Science and Technology\Desktop\C_Embedded_Fsof
 -I
 D:\OneDrive - Hanoi University of Science and Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\library\string_handle\
 -I
+D:\OneDrive - Hanoi University of Science and Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\library\middleware\
+-I
+D:\OneDrive - Hanoi University of Science and Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\library\application\
+-I
 C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\inc\c\aarch32
 -I
 C:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\inc
@@ -52,6 +56,10 @@ D:\OneDrive - Hanoi University of Science and Technology\Desktop\C_Embedded_Fsof
 D:\OneDrive - Hanoi University of Science and Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\library\flash
 -I
 D:\OneDrive - Hanoi University of Science and Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\library\string_handle
+-I
+D:\OneDrive - Hanoi University of Science and Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\library\middleware
+-I
+D:\OneDrive - Hanoi University of Science and Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\library\application
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

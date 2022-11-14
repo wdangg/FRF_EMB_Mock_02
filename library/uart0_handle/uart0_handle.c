@@ -160,4 +160,7 @@ void UART0_Init_9600()
 
   /* Set Up Interrupts For UART0 */
   UART0_SetupReceiveINT();
+
+  uint8_t t[] = "start transfer";
+  UART0_OutString(t, sizeof(t));
 }

@@ -131,15 +131,15 @@ uint32_t Queue_PeekData(Queue_Types *Queue)
             Queue->Capacity = 0;
         }
 
-        printf("\n[INFO] Peek Data: %d\n", peek_data);
+        // printf("\n[INFO] Peek Data: %d\n", peek_data);
     }
     else
     {
         while (1)
         {
             /* ERROR */
-            printf("[ERROR] Error Handler\n");
-            break;
+            // printf("[ERROR] Error Handler\n");
+            // break;
         }
     }
 
@@ -171,3 +171,16 @@ void Queue_Display(Queue_Types *Queue)
         printf("[INFO] Index %d:  %d\n", i, (Queue->QueueArr[i]));
     }
 }
+
+/* Clear Queue Data */
+void Queue_FormatData(Queue_Types *Queue)
+{
+    uint8_t i = 0;
+    for (i = 0; i < (Queue->Size); i++)
+    {
+        Queue->QueueArr[i] = 0;
+    }
+    Queue->Front = 0;
+    Queue->Rear = -1;
+}
+

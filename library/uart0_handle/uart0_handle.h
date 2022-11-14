@@ -3,8 +3,8 @@
 
 #include "MKL46Z4.h"
 
-#define UART0_RX_PIN 1
-#define UART0_TX_PIN 2
+#define UART0_RX_PIN                                1
+#define UART0_TX_PIN                                2
 
 /* Function Prototypes */
 void UART0_Clock48Mhz();

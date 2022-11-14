@@ -352,6 +352,8 @@
                     <state>D:\OneDrive - Hanoi University of Science and Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\library\drivers</state>
                     <state>D:\OneDrive - Hanoi University of Science and Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\library\flash</state>
                     <state>D:\OneDrive - Hanoi University of Science and Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\library\string_handle</state>
+                    <state>D:\OneDrive - Hanoi University of Science and Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\library\middleware</state>
+                    <state>D:\OneDrive - Hanoi University of Science and Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\library\application</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -2158,6 +2160,15 @@
     <group>
         <name>library</name>
         <group>
+            <name>application</name>
+            <file>
+                <name>$PROJ_DIR$\..\library\application\app.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\library\application\app.h</name>
+            </file>
+        </group>
+        <group>
             <name>driver</name>
             <file>
                 <name>$PROJ_DIR$\..\library\drivers\driver.c</name>
@@ -2173,6 +2184,15 @@
             </file>
             <file>
                 <name>$PROJ_DIR$\..\library\flash\write_flash.h</name>
+            </file>
+        </group>
+        <group>
+            <name>middleware</name>
+            <file>
+                <name>$PROJ_DIR$\..\library\middleware\middleware.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\library\middleware\middleware.h</name>
             </file>
         </group>
         <group>

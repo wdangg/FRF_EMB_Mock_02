@@ -39,4 +39,6 @@ uint32_t Queue_PeekData(Queue_Types *Queue);
 /* Display Queue Data*/
 void Queue_Display(Queue_Types *Queue);
 
+/* Clear Queue Data */
+void Queue_FormatData(Queue_Types *Queue);
 #endif /* __QUEUE_H__ */

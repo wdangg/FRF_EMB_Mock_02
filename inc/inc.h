@@ -2,12 +2,19 @@
 #define __INC_H__
 
 #include "MKL46Z4.h"
-#include "driver.h"
+#include "app.h"
 #include "uart0_handle.h"
 #include "queue.h"
-#include "write_flash.h"
-#include "string_handle.h"
 
-void CopyFlashFuncToRam(void);
+
+#define QUEUE_SIZE                          (0x8)
+uint32_t data_arr[QUEUE_SIZE] = {0};  
+Queue_Types queue = 
+{
+  0, -1, QUEUE_SIZE, /* Front, Rear, Size */
+  0,
+  &data_arr[0]
+};
+
 
 #endif /* __INC_H__ */

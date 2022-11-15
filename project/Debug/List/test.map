@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.30.1.335/W64 for ARM                  15/Nov/2022  09:28:21
+# IAR ELF Linker V9.30.1.335/W64 for ARM                  15/Nov/2022  09:36:14
 # Copyright 2007-2022 IAR Systems AB.
 #
 #    Output file  =
@@ -419,7 +419,7 @@ input_pin_PC12          0x1fff'e030    0xc  Data  Gb  main.o [9]
 input_pin_PC3           0x1fff'e024    0xc  Data  Gb  main.o [9]
 main                          0x6f3   0x5c  Code  Gb  main.o [9]
 ouput_led_PD5           0x1fff'e00c    0xc  Data  Gb  main.o [9]
-ouput_led_PE29          0x1fff'e000    0xc  Data  Gb  main.o [9]
+output_led_PE29         0x1fff'e000    0xc  Data  Gb  main.o [9]
 pinMode                       0x555   0xe8  Code  Gb  driver.o [2]
 pit_object_0            0x1fff'e018    0xc  Data  Gb  main.o [9]
 system_timeout          0x1fff'e050    0x4  Data  Gb  main.o [9]

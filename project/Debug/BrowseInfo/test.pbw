@@ -94055,7 +94055,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@98@macro@BOOT_ADDRESS_BASE",
+    "ID": "c:main.c@102@macro@BOOT_ADDRESS_BASE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "BOOT_ADDRESS_BASE",
@@ -94069,7 +94069,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@170@macro@APP_BASE",
+    "ID": "c:main.c@178@macro@APP_BASE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "APP_BASE",
@@ -94083,7 +94083,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@240@macro@ADR_BASE_SECTOR_4",
+    "ID": "c:main.c@252@macro@ADR_BASE_SECTOR_4",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "ADR_BASE_SECTOR_4",
@@ -94097,7 +94097,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@322@macro@ADR_BASE_SECTOR_2",
+    "ID": "c:main.c@338@macro@ADR_BASE_SECTOR_2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "ADR_BASE_SECTOR_2",
@@ -94117,7 +94117,7 @@
     "display": "adrres_Sector4",
     "location": {
       "column": "19",
-      "line": "11",
+      "line": "10",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\source\\main.c"
     },
     "name": "adrres_Sector4",
@@ -94131,7 +94131,7 @@
     "display": "adrres_Sector2",
     "location": {
       "column": "19",
-      "line": "12",
+      "line": "11",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\source\\main.c"
     },
     "name": "adrres_Sector2",
@@ -94145,7 +94145,7 @@
     "display": "void (*)(void)",
     "location": {
       "column": "16",
-      "line": "13",
+      "line": "12",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\source\\main.c"
     },
     "name": "pFunction",
@@ -94159,7 +94159,7 @@
     "display": "void CopyFlashFuncToRam(void)",
     "location": {
       "column": "6",
-      "line": "16",
+      "line": "15",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\source\\main.c"
     },
     "name": "CopyFlashFuncToRam",
@@ -94173,7 +94173,7 @@
     "display": "void Bootloader_jump_AppBilinkLed(void)",
     "location": {
       "column": "6",
-      "line": "19",
+      "line": "18",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\source\\main.c"
     },
     "name": "Bootloader_jump_AppBilinkLed",
@@ -94187,7 +94187,7 @@
     "display": "address",
     "location": {
       "column": "19",
-      "line": "21",
+      "line": "20",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\source\\main.c"
     },
     "name": "address",
@@ -94201,7 +94201,7 @@
     "display": "data",
     "location": {
       "column": "18",
-      "line": "24",
+      "line": "22",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\source\\main.c"
     },
     "name": "data",
@@ -94215,7 +94215,7 @@
     "display": "temp",
     "location": {
       "column": "19",
-      "line": "25",
+      "line": "23",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\source\\main.c"
     },
     "name": "temp",
@@ -94229,7 +94229,7 @@
     "display": "count",
     "location": {
       "column": "18",
-      "line": "26",
+      "line": "24",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\source\\main.c"
     },
     "name": "count",
@@ -94243,7 +94243,7 @@
     "display": "enable_flash",
     "location": {
       "column": "18",
-      "line": "28",
+      "line": "26",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\source\\main.c"
     },
     "name": "enable_flash",
@@ -94257,7 +94257,7 @@
     "display": "enable_timeout_counting",
     "location": {
       "column": "18",
-      "line": "29",
+      "line": "27",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\source\\main.c"
     },
     "name": "enable_timeout_counting",
@@ -94271,7 +94271,7 @@
     "display": "system_timeout",
     "location": {
       "column": "19",
-      "line": "31",
+      "line": "29",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\source\\main.c"
     },
     "name": "system_timeout",
@@ -94285,7 +94285,7 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "33",
+      "line": "31",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\source\\main.c"
     },
     "name": "main",
@@ -94299,7 +94299,7 @@
     "display": "void UART0_DriverIRQHandler(void)",
     "location": {
       "column": "6",
-      "line": "80",
+      "line": "76",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\source\\main.c"
     },
     "name": "UART0_DriverIRQHandler",
@@ -94313,7 +94313,7 @@
     "display": "void CopyFlashFuncToRam(void)",
     "location": {
       "column": "6",
-      "line": "161",
+      "line": "154",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\source\\main.c"
     },
     "name": "CopyFlashFuncToRam",
@@ -94321,13 +94321,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3419@F@CopyFlashFuncToRam@size",
+    "ID": "c:main.c@3430@F@CopyFlashFuncToRam@size",
     "What": "Variable",
     "defdec": "Def",
     "display": "size",
     "location": {
-      "column": "14",
-      "line": "163",
+      "column": "12",
+      "line": "156",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\source\\main.c"
     },
     "name": "size",
@@ -94335,13 +94335,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3419@F@CopyFlashFuncToRam@cntr",
+    "ID": "c:main.c@3430@F@CopyFlashFuncToRam@cntr",
     "What": "Variable",
     "defdec": "Dec",
     "display": "cntr",
     "location": {
-      "column": "28",
-      "line": "163",
+      "column": "26",
+      "line": "156",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\source\\main.c"
     },
     "name": "cntr",
@@ -94349,13 +94349,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3453@F@CopyFlashFuncToRam@pDst",
+    "ID": "c:main.c@3462@F@CopyFlashFuncToRam@pDst",
     "What": "Variable",
     "defdec": "Def",
     "display": "pDst",
     "location": {
-      "column": "15",
-      "line": "164",
+      "column": "13",
+      "line": "157",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\source\\main.c"
     },
     "name": "pDst",
@@ -94363,13 +94363,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3500@F@CopyFlashFuncToRam@pSrc",
+    "ID": "c:main.c@3507@F@CopyFlashFuncToRam@pSrc",
     "What": "Variable",
     "defdec": "Def",
     "display": "pSrc",
     "location": {
-      "column": "15",
-      "line": "165",
+      "column": "13",
+      "line": "158",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\source\\main.c"
     },
     "name": "pSrc",
@@ -94383,7 +94383,7 @@
     "display": "void Bootloader_jump_AppBilinkLed(void)",
     "location": {
       "column": "6",
-      "line": "177",
+      "line": "169",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\source\\main.c"
     },
     "name": "Bootloader_jump_AppBilinkLed",
@@ -94391,13 +94391,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@4117@F@Bootloader_jump_AppBilinkLed@JumpToApplication",
+    "ID": "c:main.c@4086@F@Bootloader_jump_AppBilinkLed@JumpToApplication",
     "What": "Variable",
     "defdec": "Def",
     "display": "JumpToApplication",
     "location": {
-      "column": "15",
-      "line": "192",
+      "column": "13",
+      "line": "183",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\source\\main.c"
     },
     "name": "JumpToApplication",
@@ -94405,13 +94405,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@4158@F@Bootloader_jump_AppBilinkLed@Application_Main_Stack_porter",
+    "ID": "c:main.c@4125@F@Bootloader_jump_AppBilinkLed@Application_Main_Stack_porter",
     "What": "Variable",
     "defdec": "Def",
     "display": "Application_Main_Stack_porter",
     "location": {
-      "column": "14",
-      "line": "193",
+      "column": "12",
+      "line": "184",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\source\\main.c"
     },
     "name": "Application_Main_Stack_porter",
@@ -94419,13 +94419,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@4207@F@Bootloader_jump_AppBilinkLed@Application_Reset_Handler",
+    "ID": "c:main.c@4172@F@Bootloader_jump_AppBilinkLed@Application_Reset_Handler",
     "What": "Variable",
     "defdec": "Def",
     "display": "Application_Reset_Handler",
     "location": {
-      "column": "14",
-      "line": "194",
+      "column": "12",
+      "line": "185",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\source\\main.c"
     },
     "name": "Application_Reset_Handler",
@@ -94433,13 +94433,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@4612@F@Bootloader_jump_AppBilinkLed@resethandler",
+    "ID": "c:main.c@4555@F@Bootloader_jump_AppBilinkLed@resethandler",
     "What": "Variable",
     "defdec": "Def",
     "display": "resethandler",
     "location": {
-      "column": "12",
-      "line": "207",
+      "column": "10",
+      "line": "198",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\source\\main.c"
     },
     "name": "resethandler",
@@ -94453,7 +94453,7 @@
     "display": "void PIT_IRQHandler_CallBack(void)",
     "location": {
       "column": "6",
-      "line": "211",
+      "line": "202",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\source\\main.c"
     },
     "name": "PIT_IRQHandler_CallBack",
@@ -94467,7 +94467,7 @@
     "display": "void PORTC_PORTD_IRQHandler_Callback(void)",
     "location": {
       "column": "6",
-      "line": "217",
+      "line": "208",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\source\\main.c"
     },
     "name": "PORTC_PORTD_IRQHandler_Callback",
@@ -94503,7 +94503,7 @@
     "scope": null
   },
   {
-    "ID": "c:inc.h@210@macro@RED_LED_PIN",
+    "ID": "c:inc.h@201@macro@RED_LED_PIN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RED_LED_PIN",
@@ -94517,7 +94517,7 @@
     "scope": null
   },
   {
-    "ID": "c:inc.h@262@macro@PIT_LOAD_VALUE",
+    "ID": "c:inc.h@253@macro@PIT_LOAD_VALUE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PIT_LOAD_VALUE",
@@ -94531,7 +94531,7 @@
     "scope": null
   },
   {
-    "ID": "c:inc.h@320@macro@BUTTON2_PIN",
+    "ID": "c:inc.h@311@macro@BUTTON2_PIN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "BUTTON2_PIN",
@@ -94545,7 +94545,7 @@
     "scope": null
   },
   {
-    "ID": "c:inc.h@367@macro@BUTTON_PIN",
+    "ID": "c:inc.h@348@macro@BUTTON_PIN",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "BUTTON_PIN",
@@ -94559,58 +94559,16 @@
     "scope": null
   },
   {
-    "ID": "c:inc.h@415@macro@QUEUE_SIZE",
-    "What": "MacroDef",
+    "ID": "c:@output_led_PE29",
+    "What": "Variable",
     "defdec": "Def",
-    "display": "QUEUE_SIZE",
+    "display": "output_led_PE29",
     "location": {
-      "column": "9",
+      "column": "13",
       "line": "16",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\inc\\inc.h"
     },
-    "name": "QUEUE_SIZE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@data_arr",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "data_arr",
-    "location": {
-      "column": "10",
-      "line": "17",
-      "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\inc\\inc.h"
-    },
-    "name": "data_arr",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@queue",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "queue",
-    "location": {
-      "column": "13",
-      "line": "18",
-      "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\inc\\inc.h"
-    },
-    "name": "queue",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@ouput_led_PE29",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "ouput_led_PE29",
-    "location": {
-      "column": "13",
-      "line": "24",
-      "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\inc\\inc.h"
-    },
-    "name": "ouput_led_PE29",
+    "name": "output_led_PE29",
     "origin": "user_include",
     "scope": null
   },
@@ -94621,7 +94579,7 @@
     "display": "ouput_led_PD5",
     "location": {
       "column": "13",
-      "line": "26",
+      "line": "24",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\inc\\inc.h"
     },
     "name": "ouput_led_PD5",
@@ -94635,7 +94593,7 @@
     "display": "pit_object_0",
     "location": {
       "column": "17",
-      "line": "28",
+      "line": "31",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\inc\\inc.h"
     },
     "name": "pit_object_0",
@@ -94649,7 +94607,7 @@
     "display": "input_pin_PC3",
     "location": {
       "column": "13",
-      "line": "30",
+      "line": "40",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\inc\\inc.h"
     },
     "name": "input_pin_PC3",
@@ -94663,7 +94621,7 @@
     "display": "input_pin_PC12",
     "location": {
       "column": "13",
-      "line": "32",
+      "line": "47",
       "path": "D:\\OneDrive - Hanoi University of Science and Technology\\Desktop\\C_Embedded_Fsoft\\MCU_Project\\Test\\inc\\inc.h"
     },
     "name": "input_pin_PC12",

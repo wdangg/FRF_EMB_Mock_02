@@ -59,11 +59,13 @@ typedef struct Object_Type
 uint8_t getPortSource(PORT_Type *PORTx);
 Bool PORT_Init(PORT_Type *PORTx);
 Bool pinMode(Object_Type *s_pin_config);
-Bool attachExternalInterrupt(IRQn_Type IRQn_x, Object_Type *digitalPinToInterrupts, INT_Trigger_Type trigger_type);
+Bool attachExternalInterrupt(IRQn_Type IRQn_x, Object_Type *digitalPinToInterrupts, INT_Trigger_Type trigger_type, uint32_t priority);
 Bool isPinInterruptsRequest(Object_Type *check_pin_request);
 Bool PORT_EXTI_ClearFlag(Object_Type *pin_flag);
 void ERROR_Handler();
 
+void PORTC_PORTD_ClearFlag();
+__weak void PORTC_PORTD_IRQHandler_Callback();
 
 
 #endif /* __DRIVER_H__ */

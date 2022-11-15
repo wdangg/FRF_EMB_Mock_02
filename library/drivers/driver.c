@@ -92,7 +92,7 @@ Bool pinMode(Object_Type *s_pin_config)
         (s_pin_config->FGPIOx)->PDDR |= (1 << s_pin_config->pin_number);
 
         /* Set Initial State */
-        (s_pin_config->FGPIOx)->PCOR |= (1 << (s_pin_config->pin_number));
+        (s_pin_config->FGPIOx)->PSOR |= (1 << (s_pin_config->pin_number));
         break;
 
     default:
@@ -107,12 +107,12 @@ Bool pinMode(Object_Type *s_pin_config)
     return retVal;
 }
 
-Bool attachExternalInterrupt(IRQn_Type IRQn_x, Object_Type *digitalPinToInterrupts, INT_Trigger_Type trigger_type)
+Bool attachExternalInterrupt(IRQn_Type IRQn_x, Object_Type *digitalPinToInterrupts, INT_Trigger_Type trigger_type, uint32_t priority)
 {
     Bool retVal = e_TRUE;
 
     /* Disable Global Interrupts */
-    __disable_irq();
+    // __disable_irq();
 
     /* Setup Trigger Type For Interrupts */
     (digitalPinToInterrupts->PORTx)->PCR[digitalPinToInterrupts->pin_number] &= (~PORT_PCR_IRQC_MASK);
@@ -121,8 +121,11 @@ Bool attachExternalInterrupt(IRQn_Type IRQn_x, Object_Type *digitalPinToInterrup
     /* Enable IRQn_x Interrupts */
     NVIC_EnableIRQ(IRQn_x);
 
+    /* NVIC Set Priority */
+    NVIC_SetPriority(PORTC_PORTD_IRQn, priority);
+
     /* Enable Global Interrupts */
-    __enable_irq();
+    // __enable_irq();
 
     return retVal;
 }
@@ -148,6 +151,12 @@ Bool PORT_EXTI_ClearFlag(Object_Type *pin_flag)
     return retVal;
 }
 
+void PORTC_PORTD_ClearFlag()
+{
+    PORTC->ISFR |= PORT_ISFR_ISF_MASK;
+    PORTD->ISFR |= PORT_ISFR_ISF_MASK;
+}
+
 void ERROR_Handler()
 {
     while (1)
@@ -155,3 +164,17 @@ void ERROR_Handler()
         /* Process Has Been Die */
     }
 }
+
+void PORTC_PORTD_IRQHandler()
+{
+    /* User Function Callback */
+    PORTC_PORTD_IRQHandler_Callback();
+
+    /* Clear Interrupts Flag */
+    PORTC_PORTD_ClearFlag();
+
+    /* NVIC Clear Pending */
+    NVIC_ClearPendingIRQ(PORTC_PORTD_IRQn);
+}
+
+

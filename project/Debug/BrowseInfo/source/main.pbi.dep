@@ -19,9 +19,10 @@ D:\OneDrive\ -\ Hanoi\ University\ of\ Science\ and\ Technology\Desktop\C_Embedd
   D:\OneDrive\ -\ Hanoi\ University\ of\ Science\ and\ Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\library\drivers\driver.h \
   D:\OneDrive\ -\ Hanoi\ University\ of\ Science\ and\ Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\library\flash\write_flash.h \
   D:\OneDrive\ -\ Hanoi\ University\ of\ Science\ and\ Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\library\string_handle\string_handle.h \
-  D:\OneDrive\ -\ Hanoi\ University\ of\ Science\ and\ Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\library\uart0_handle\uart0_handle.h \
-  D:\OneDrive\ -\ Hanoi\ University\ of\ Science\ and\ Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\library\queue_handle\queue.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\stdio.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\ysizet.h \
+  D:\OneDrive\ -\ Hanoi\ University\ of\ Science\ and\ Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\library\uart0_handle\uart0_handle.h \
+  D:\OneDrive\ -\ Hanoi\ University\ of\ Science\ and\ Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\library\queue_handle\queue.h \
   C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\stdlib.h \
-  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\DLib_Product_stdlib.h
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\DLib_Product_stdlib.h \
+  D:\OneDrive\ -\ Hanoi\ University\ of\ Science\ and\ Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\library\pit_handle\pit_handle.h

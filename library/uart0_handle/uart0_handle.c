@@ -92,7 +92,7 @@ void UART0_SetFrame()
   UART0->C3 &= (~UART0_C3_TXINV_MASK);
 }
 
-void UART0_Init()
+void UART0_Init_115200(uint32_t priority)
 {
   UART0_Clock48Mhz();
   SystemCoreClockUpdate();
@@ -103,6 +103,15 @@ void UART0_Init()
   /* Enable Transmitter & Receiver */
   UART0->C2 |= UART0_C2_TE_MASK;
   UART0->C2 |= UART0_C2_RE_MASK;
+
+  /* Set Up Interrupts For UART0 */
+  UART0_SetupReceiveINT();
+
+  /* NVIC Set Priority */
+  NVIC_SetPriority(UART0_IRQn, priority);
+
+  uint8_t t[] = "start transfer";
+  UART0_OutString(t, sizeof(t));
 }
 
 void UART0_Transmit(uint8_t u8Data)
@@ -129,7 +138,7 @@ uint8_t UART0_Receive(void)
   return UART0->D;
 }
 
-void UART0_Init_9600()
+void UART0_Init_9600(uint32_t priority)
 {
 
   MCG->C4 |= MCG_C4_DMX32_MASK; // Lowest range and DMX32 = 1 -> 24MHZ
@@ -160,6 +169,9 @@ void UART0_Init_9600()
 
   /* Set Up Interrupts For UART0 */
   UART0_SetupReceiveINT();
+
+  /* NVIC Set Priority */
+  NVIC_SetPriority(UART0_IRQn, priority);
 
   uint8_t t[] = "start transfer";
   UART0_OutString(t, sizeof(t));

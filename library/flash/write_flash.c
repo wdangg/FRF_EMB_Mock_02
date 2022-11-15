@@ -16,8 +16,7 @@
 void Flash_Program(uint32_t Address, uint32_t Data)
 {
   /* wait previous command complate*/
-  while ((FTFA->FSTAT & FTFA_FSTAT_CCIF_MASK) == 0)
-    ;
+  while ((FTFA->FSTAT & FTFA_FSTAT_CCIF_MASK) == 0);
 
   /*Check Error from previous command*/
   if ((FTFA->FSTAT & FTFA_FSTAT_ACCERR_MASK) == FTFA_FSTAT_ACCERR_MASK || (FTFA->FSTAT & FTFA_FSTAT_FPVIOL_MASK) == FTFA_FSTAT_FPVIOL_MASK)

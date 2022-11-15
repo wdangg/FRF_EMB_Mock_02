@@ -1,15 +1,15 @@
-"D:\OneDrive - Hanoi University of Science and Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\source\main.c"
+"D:\OneDrive - Hanoi University of Science and Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\library\pit_handle\pit_handle.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-D:\OneDrive - Hanoi University of Science and Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\project\Debug\BrowseInfo\source\main.pbi.dep
+D:\OneDrive - Hanoi University of Science and Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\project\Debug\BrowseInfo\library\pit_handle\pit_handle.pbi.dep
 -o
-D:\OneDrive - Hanoi University of Science and Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\project\Debug\BrowseInfo\source\main.pbi
+D:\OneDrive - Hanoi University of Science and Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\project\Debug\BrowseInfo\library\pit_handle\pit_handle.pbi
 -I
-D:\OneDrive - Hanoi University of Science and Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\source
+D:\OneDrive - Hanoi University of Science and Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\library\pit_handle
 -I
 D:\OneDrive - Hanoi University of Science and Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\source\
 -I

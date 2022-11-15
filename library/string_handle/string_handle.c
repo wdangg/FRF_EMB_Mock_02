@@ -68,9 +68,9 @@ uint8_t *itoa(uint32_t num, uint8_t *str, uint32_t base)
 /*
  * Implementation of Char2Dec() - Convert character to Decimal
  * Intput = '0' to '9' and 'A' to 'F'
- * If Invalid input, program will be corrupted 
+ * If Invalid input, program will be corrupted
  */
-uint8_t Char2Dec(uint8_t chardata)
+uint8_t CharToDec(uint8_t chardata)
 {
     uint8_t retVal = chardata;
 
@@ -84,7 +84,7 @@ uint8_t Char2Dec(uint8_t chardata)
     }
     else
     {
-        if ( (chardata != '[') && (chardata != ']') && (chardata != '/'))
+        if ((chardata != '[') && (chardata != ']') && (chardata != '/') && (chardata != 'c') && (chardata != 'j'))
         {
             retVal = INVALID_CHARACTER;
         }

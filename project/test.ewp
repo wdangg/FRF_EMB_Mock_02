@@ -354,6 +354,7 @@
                     <state>D:\OneDrive - Hanoi University of Science and Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\library\string_handle</state>
                     <state>D:\OneDrive - Hanoi University of Science and Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\library\middleware</state>
                     <state>D:\OneDrive - Hanoi University of Science and Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\library\application</state>
+                    <state>D:\OneDrive - Hanoi University of Science and Technology\Desktop\C_Embedded_Fsoft\MCU_Project\Test\library\pit_handle</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -2193,6 +2194,15 @@
             </file>
             <file>
                 <name>$PROJ_DIR$\..\library\middleware\middleware.h</name>
+            </file>
+        </group>
+        <group>
+            <name>pit_handle</name>
+            <file>
+                <name>$PROJ_DIR$\..\library\pit_handle\pit_handle.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\library\pit_handle\pit_handle.h</name>
             </file>
         </group>
         <group>

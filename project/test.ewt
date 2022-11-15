@@ -2890,6 +2890,15 @@
             </file>
         </group>
         <group>
+            <name>pit_handle</name>
+            <file>
+                <name>$PROJ_DIR$\..\library\pit_handle\pit_handle.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\library\pit_handle\pit_handle.h</name>
+            </file>
+        </group>
+        <group>
             <name>queue_handle</name>
             <file>
                 <name>$PROJ_DIR$\..\library\queue_handle\queue.c</name>
